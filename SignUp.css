@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1614850523011-8f49ffc73908?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    min-height: 500px;
+    padding: 60px;
+    background-color: #408175;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    gap: 20px;
+}
+
+
+.form img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.form label {
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form input {
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.form button, 
+.form a {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0044cc;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.form button:hover,
+.form a:hover {
+    background-color: #003399;
+    text-decoration: none; 
+}
