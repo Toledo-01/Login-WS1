@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="CSS/Login.css">
 </head>
 <body>
-   <main class="form">
-        <img src="https://cdn.pixabay.com/photo/2025/05/24/12/40/whale-9619752_640.png" alt="Logo">
-        
-        <label for="name">Username:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        
-        <a href="SignUp.html">Create Account</a>
-        <a href="Dashboard.html">Login</a>
-    </main>
+
+    <form action="Login.php" method="POST">
+       <main class="form">
+            <img src="https://cdn.pixabay.com/photo/2025/05/24/12/40/whale-9619752_640.png" alt="Logo">
+            
+            <div class="welcome-text">
+                <h2>Welcome Back, Shopper!</h2>
+                <p>Unlock exclusive deals and discover your next favorite style today.</p>
+            </div>
+            
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <a href="SignUp.html">Create Account</a>
+            
+            <button type="submit">Login</button>
+       </main>
+    </form>
 </body>
 </html>
