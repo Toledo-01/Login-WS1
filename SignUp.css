@@ -9,58 +9,66 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1614850523011-8f49ffc73908?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaty5ud5Xf7nUi9v_KUlDNxN1jQ4XWC7FX0B5bzwRhQaqsWMyA99UObyGX&s=10");
+    background-size: cover;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Form body*/
 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    min-height: 500px;
-    padding: 60px;
-    background-color: #408175;
+    width: 420px;
+    padding: 30px 35px;
+    background-color: #092328;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    gap: 20px;
+    gap: 12px;
 }
-
 
 .form img {
-    width: 140px;
-    height: 140px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
+/* for the labels*/
 .form label {
     align-self: flex-start;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    color: #ffffff;
+    color:white;
 }
 
 .form input {
     width: 100%;
-    height: 50px;
-    padding: 10px 15px;
-    font-size: 18px;
+    height: 42px;
+    padding: 8px 12px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 6px;
     outline: none;
 }
 
+.form input:focus {
+    border-color: #092328;
+    box-shadow: 0 0 5px #144a55;
+}
+
+/* buttons*/
 .form button, 
 .form a {
     display: inline-block;
     width: 100%;
-    height: 50px;
-    line-height: 50px; 
+    height: 42px;
+    line-height: 42px; 
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     background-color: #0044cc;
@@ -68,7 +76,7 @@ body {
     border-radius: 6px;
     text-decoration: none;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .form button:hover,
