@@ -31,14 +31,15 @@ if (!isset($_SESSION['fname']) || $_SESSION['role'] !== 'admin') {
                 </div>
             </div>
             
-            <a href="#dashboard">Dashboard</a>
-            <a href="#orders">Orders <span class="cart-badge">2</span></a>
-            <a href="#catalog">Catalogs</a>
-            <a href="#users">Users</a>
-            <a href="#market">Marketing</a>
-            <a href="#analytic">Analytics</a>
-            <a href="#setting">Settings</a>
-            <a href="#profile">Profile</a>
+            <a href="AdminDashboard.php">Dashboard</a>
+            <a href="products.php">Products</a>
+            <a href="catalog.php">Catalogs</a>
+            <a href="users.php">Users</a>
+            <a href="market.php">Marketing</a>
+            <a href="analytic.php">Analytics</a>
+             <a href="audit_logs.php">Audit Logs</a>
+            <a href="setting.php">Settings</a>
+            <a href="admin_profile.php">Profile</a>
             <a href="logout.php" class="logout-link">Logout</a>
         </aside>
 
@@ -50,7 +51,7 @@ if (!isset($_SESSION['fname']) || $_SESSION['role'] !== 'admin') {
                         <p>Manage your orders, tracking, and personal profile details below.</p>
                     </div>
                 </div>
-
+               
                 <section class="profile-card">
                     <div class="card-header-flex">
                         <h3>Account Information</h3>

@@ -31,11 +31,11 @@ if (!isset($_SESSION['fname'])) {
                 </div>
             </div>
             
-            <a href="#dashboard">Dashboard</a>
-            <a href="#orders">My Orders</a>
-            <a href="#cart">Shopping Cart <span class="cart-badge">2</span></a>
-            <a href="#wishlist">Wishlist</a>
-            <a href="#profile">Profile Settings</a>
+            <a href="Customerdashboard.php">Dashboard</a>
+            <a href="orders.php">My Orders</a>
+            <a href="cart.php">Shopping Cart <span class="cart-badge">2</span></a>
+            <a href="wishlist.php">Wishlist</a>
+            <a href="customer_profile.php">Profile Settings</a>
             <a href="logout.php" class="logout-link">Logout</a>
         </aside>
 

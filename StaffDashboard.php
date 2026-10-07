@@ -31,11 +31,11 @@ if (!isset($_SESSION['fname']) || !in_array($_SESSION['role'], ['staff', 'admin'
                 </div>
             </div>
             
-            <a href="#dashboard">Dashboard</a>
-            <a href="#customer-support">Customer Support</a>
-            <a href="#orders">My Orders <span class="cart-badge">2</span></a>
-            <a href="#catalog">Catalogs</a>
-            <a href="#profile">Profile Settings</a>
+            <a href="StaffDashboard">Dashboard</a>
+            <a href="customer-support.php">Customer Support</a>
+            <a href="orders.php">My Orders <span class="cart-badge">2</span></a>
+            <a href="catalog.php">Catalogs</a>
+            <a href="staff_profile.php">Profile Settings</a>
             <a href="logout.php" class="logout-link">Logout</a>
         </aside>
 

@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
+.form demo-accounts {
+    position: absolute;
+    bottom: -20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    color: #ffffff;
+    text-align: left; 
+    
+}
 .w {
   position: absolute;
   right: 35%; 
   top: 50%;
   transform: translateY(-50%);
-  color: antiquewhite;
   font-size: larger;
+
 }
 
 body {
@@ -36,6 +45,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     gap: 12px;
+    color: #ffffff;
 }
 
 .form img {
